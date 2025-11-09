@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/images/Tolu's Scents.png" />
+    <title>Collections — T Scents</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><img src="images/Tolu's Scents.png" class="logo" alt="Logo"></a>
+                <span class="logo-text">T Scents</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Collections Hero -->
+    <section class="collections-hero">
+        <div class="collections-hero-content">
+            <h1>Our Collections</h1>
+            <p>Handcrafted perfumes for every moment, every mood, every you.</p>
+        </div>
+    </section>
+
+    <!-- Replaced grid layout with three carousels organized by badge -->
+    <main class="collections-main">
+        <!-- Best Sellers Carousel -->
+        <section class="carousel-section">
+            <div class="carousel-header">
+                <h2>Best Sellers</h2>
+                <p>Customer favorites and most loved fragrances</p>
+            </div>
+            <div class="carousel-wrapper">
+                <button class="carousel-nav-btn prev" data-carousel="bestsellers">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <div class="carousel-container" id="carousel-bestsellers">
+                    <div class="carousel-track" id="track-bestsellers"></div>
+                </div>
+                <button class="carousel-nav-btn next" data-carousel="bestsellers">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- Newest Carousel -->
+        <section class="carousel-section">
+            <div class="carousel-header">
+                <h2>Latest Arrivals</h2>
+                <p>Discover our newest fragrance releases</p>
+            </div>
+            <div class="carousel-wrapper">
+                <button class="carousel-nav-btn prev" data-carousel="newest">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <div class="carousel-container" id="carousel-newest">
+                    <div class="carousel-track" id="track-newest"></div>
+                </div>
+                <button class="carousel-nav-btn next" data-carousel="newest">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- Limited Edition Carousel -->
+        <section class="carousel-section">
+            <div class="carousel-header">
+                <h2>Luxurious Editions</h2>
+                <p>Exclusive fragrances in luxurious quantities</p>
+            </div>
+            <div class="carousel-wrapper">
+                <button class="carousel-nav-btn prev" data-carousel="limited">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <div class="carousel-container" id="carousel-limited">
+                    <div class="carousel-track" id="track-limited"></div>
+                </div>
+                <button class="carousel-nav-btn next" data-carousel="limited">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/Tolu's Scents.png" class="logo" alt="Logo"></a>
+                    <h3 class="footer-brand">T Scents</h3>
+                </div>
+                
+                <p>Decent, Recent and of Rich Scent. Come over and spend till your last cents.</p>
+            </div>
+            <div class="footer-section">
+                <h4>About</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="index.html#featured">Featured</a></li>
+                    <li><a href="index.html#notes">Fragrance Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul class="footer-socials">
+                    <li>
+                        <a href="https://instagram.com/f0wobi" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg class="icon icon-instagram" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                            <title>Instagram</title>
+                            <rect x="3" y="3" width="18" height="18" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                            <path d="M12 7.25a4.75 4.75 0 1 0 0 9.5 4.75 4.75 0 0 0 0-9.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="17.6" cy="6.4" r="0.6" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/2348082879322" target="_blank" rel="noopener" aria-label="WhatsApp">
+                            <svg class="icon icon-whatsapp" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                            <title>WhatsApp</title>
+                            <!-- outer chat bubble / circle -->
+                            <path fill="currentColor" d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.373 0 .001 5.373.001 12c0 2.115.57 4.085 1.56 5.83L0 24l6.39-1.62A11.93 11.93 0 0 0 12 24c6.627 0 12-5.373 12-12 0-1.64-.33-3.194-.98-4.48z"/>
+                            <!-- phone handset -->
+                            <path fill="#fff" d="M17.11 14.36c-.33-.17-1.95-.96-2.25-1.07-.3-.12-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.24-.71.08-.33-.17-1.39-.51-2.65-1.62-.98-.87-1.64-1.94-1.83-2.27-.19-.33-.02-.51.14-.68.15-.15.33-.38.5-.57.17-.19.22-.33.33-.55.11-.22.06-.41-.03-.58-.09-.17-.74-1.79-1.02-2.45-.27-.64-.55-.55-.74-.56-.19-.01-.41-.01-.63-.01-.22 0-.58.08-.88.41-.3.33-1.15 1.12-1.15 2.73 0 1.61 1.18 3.17 1.34 3.39.17.22 2.33 3.56 5.65 4.98 3.32 1.42 3.32 0.95 3.92 0.89.6-.06 1.95-.79 2.23-1.55.28-.76.28-1.41.2-1.55-.08-.15-.3-.24-.63-.41z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 T Scents. All rights reserved. Crafted with intention.</p>
+        </div>
+    </footer>
+
+    <script src="collections.js"></script>
+</body>
+
+</html>

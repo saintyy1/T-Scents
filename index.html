@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/images/Tolu's Scents.png" />
+    <title>T Scents — Artisanal Fine Perfumes</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><img src="images/Tolu's Scents.png" class="logo" alt="Logo"></a>
+                <span class="logo-text">T Scents</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <!-- Updated navbar to show only Home and Collections -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-background" style="background-image: url('/images/hero.jpg')"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">T Scents</h1>
+            <p class="hero-description">Decent, Recent and of Rich Scent. Come over and spend till your last cents</p>
+            <div class="hero-ctas">
+                <a href="collections.html" class="btn btn-primary">Browse Collection</a>
+                <a href="#about" class="btn btn-secondary">Discover Story</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Featured Scent -->
+        <section id="featured" class="featured-scent">
+            <div class="section-header">
+                <h2>Featured Scents</h2>
+                <p>Our most coveted fragrances loved by perfume enthusiasts worldwide.</p>
+            </div>
+            <div class="featured-carousel">
+                <div class="featured-item active">
+                    <div class="featured-grid">
+                        <div class="featured-image">
+                            <img src="/images/velvet oud.jpeg" class="featured-img" alt="Lattafa Velvet Oud" loading="lazy">
+                        </div>
+                        <div class="featured-content">
+                            <p class="section-label">Most Popular</p>
+                            <h3>Velvet Oud</h3>
+                            <p class="featured-brand">Lattafa</p>
+
+                            <p class="featured-blurb">
+                                Our most coveted fragrance. Velvet Oud opens with a whisper of bergamot and rose petals,
+                                then unfolds into a rich tapestry of Indian oud, sandalwood, and leather. A scent for
+                                those who understand that true luxury is felt, not seen. Hand-distilled in small batches
+                                using sustainably sourced botanicals.
+                            </p>
+
+                            <ul class="scent-notes">
+                                <li>
+                                    <span class="note-type">Top Notes:</span>
+                                    Bergamot, Rose
+                                </li>
+                                <li>
+                                    <span class="note-type">Heart Notes:</span>
+                                    Jasmine, Orchid
+                                </li>
+                                <li>
+                                    <span class="note-type">Base Notes:</span>
+                                    Oud, Sandalwood, Leather
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item">
+                    <div class="featured-grid">
+                        <div class="featured-image">
+                            <img src="/images/la vie est belle.webp" class="featured-img" alt="Lancôme La Vie Est Belle"
+                                loading="lazy">
+                        </div>
+                        <div class="featured-content">
+                            <p class="section-label">Luxury Choice</p>
+                            <h3>La Vie Est Belle</h3>
+                            <p class="featured-brand">Lancôme</p>
+                            <p class="featured-blurb">
+                                An iconic luxury fragrance that celebrates the beauty of life. This rich composition
+                                opens with almond and caramel, transitioning into a floral heart with iris and
+                                patchouli. A sophisticated choice for evening wear.
+                            </p>
+                            <ul class="scent-notes">
+                                <li><span class="note-type">Top Notes:</span> Almond, Caramel</li>
+                                <li><span class="note-type">Heart Notes:</span> Iris, Patchouli</li>
+                                <li><span class="note-type">Base Notes:</span> Vetiver, Musk</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item">
+                    <div class="featured-grid">
+                        <div class="featured-image">
+                            <img src="/images/dior sauvage.jpg" class="featured-img" alt="Christian Dior Sauvage"
+                                loading="lazy">
+                        </div>
+                        <div class="featured-content">
+                            <p class="section-label">Timeless Classic</p>
+                            <h3>Sauvage</h3>
+                            <p class="featured-brand">Christian Dior</p>
+                            <p class="featured-blurb">
+                                A fresh and elegant fragrance that embodies refined masculinity. Sauvage opens with
+                                bright ambroxan and pepper, revealing a heart of ambrette and concluding with warm woody
+                                notes. A versatile choice for any occasion.
+                            </p>
+                            <ul class="scent-notes">
+                                <li><span class="note-type">Top Notes:</span> Ambroxan, Pepper</li>
+                                <li><span class="note-type">Heart Notes:</span> Ambrette, Spices</li>
+                                <li><span class="note-type">Base Notes:</span> Cedar, Vanilla</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-carousel-controls">
+                <button class="featured-carousel-btn prev" id="prevFeatured">←</button>
+                <div class="carousel-indicators">
+                    <button class="indicator active" data-slide="0"></button>
+                    <button class="indicator" data-slide="1"></button>
+                    <button class="indicator" data-slide="2"></button>
+                </div>
+                <button class="featured-carousel-btn next" id="nextFeatured">→</button>
+            </div>
+        </section>
+
+        <!-- Notes & Ingredients -->
+        <section id="notes" class="notes-section">
+            <div class="section-header">
+                <h2>The Art of Fragrance</h2>
+                <p>Discover the layers that make our scents unforgettable.</p>
+            </div>
+            <div class="notes-grid">
+                <div class="note-card">
+                    <div class="note-icon">🌸</div>
+                    <h3>Top Notes</h3>
+                    <p>The first impression, lasting 5–15 minutes. Typically citrus, herbs, or light florals that awaken
+                        the senses.</p>
+                </div>
+                <div class="note-card">
+                    <div class="note-icon">💐</div>
+                    <h3>Heart Notes</h3>
+                    <p>The soul of the fragrance, emerging after 15 minutes. Often rich florals and spices that form the
+                        scent's character.</p>
+                </div>
+                <div class="note-card">
+                    <div class="note-icon">🌿</div>
+                    <h3>Base Notes</h3>
+                    <p>The foundation, lasting 6+ hours. Deep musks, woods, and resins that anchor and warm the entire
+                        composition.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews / Testimonials -->
+        <section id="reviews" class="testimonials">
+            <div class="section-header">
+                <h2>Scented Stories</h2>
+                <p>Hear from those who've discovered their signature scent.</p>
+            </div>
+            <div class="testimonial-carousel">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <p class="testimonial-quote">"I've worn Velvet Oud for three years now. It's become part of my
+                            identity. Every time someone asks what I'm wearing, it feels like sharing a secret."</p>
+                        <p class="testimonial-author">— Aisha M.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <p class="testimonial-quote">"The craftsmanship is evident in every detail. These aren't just
+                            fragrances — they're wearable memories."</p>
+                        <p class="testimonial-author">— Tolu O.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p class="testimonial-quote">"Discovering T Scents was like finding an old letter written by my
+                            younger self. Every scent speaks to something within."</p>
+                        <p class="testimonial-author">— Nife A.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p class="testimonial-quote">"Discovering T Scents was like finding an old letter written by my
+                            younger self. Every scent speaks to something within."</p>
+                        <p class="testimonial-author">— Sekinat A.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-carousel-controls">
+                <button class="featured-carousel-btn prev" id="prevTestimonial">←</button>
+                <div class="carousel-indicators">
+                    <button class="indicator active" data-slide="0"></button>
+                    <button class="indicator" data-slide="1"></button>
+                </div>
+                <button class="featured-carousel-btn next" id="nextTestimonial">→</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/Tolu's Scents.png" class="logo" alt="Logo"></a>
+                    <h3 class="footer-brand">T Scents</h3>
+                </div>
+                
+                <p>Decent, Recent and of Rich Scent. Come over and spend till your last cents.</p>
+            </div>
+            <div class="footer-section">
+                <h4>About</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="index.html#featured">Featured</a></li>
+                    <li><a href="index.html#notes">Fragrance Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul class="footer-socials">
+                    <li>
+                        <a href="https://instagram.com/f0wobi" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg class="icon icon-instagram" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                            <title>Instagram</title>
+                            <rect x="3" y="3" width="18" height="18" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                            <path d="M12 7.25a4.75 4.75 0 1 0 0 9.5 4.75 4.75 0 0 0 0-9.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="17.6" cy="6.4" r="0.6" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/2348082879322" target="_blank" rel="noopener" aria-label="WhatsApp">
+                            <svg class="icon icon-whatsapp" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                            <title>WhatsApp</title>
+                            <!-- outer chat bubble / circle -->
+                            <path fill="currentColor" d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.373 0 .001 5.373.001 12c0 2.115.57 4.085 1.56 5.83L0 24l6.39-1.62A11.93 11.93 0 0 0 12 24c6.627 0 12-5.373 12-12 0-1.64-.33-3.194-.98-4.48z"/>
+                            <!-- phone handset -->
+                            <path fill="#fff" d="M17.11 14.36c-.33-.17-1.95-.96-2.25-1.07-.3-.12-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.24-.71.08-.33-.17-1.39-.51-2.65-1.62-.98-.87-1.64-1.94-1.83-2.27-.19-.33-.02-.51.14-.68.15-.15.33-.38.5-.57.17-.19.22-.33.33-.55.11-.22.06-.41-.03-.58-.09-.17-.74-1.79-1.02-2.45-.27-.64-.55-.55-.74-.56-.19-.01-.41-.01-.63-.01-.22 0-.58.08-.88.41-.3.33-1.15 1.12-1.15 2.73 0 1.61 1.18 3.17 1.34 3.39.17.22 2.33 3.56 5.65 4.98 3.32 1.42 3.32 0.95 3.92 0.89.6-.06 1.95-.79 2.23-1.55.28-.76.28-1.41.2-1.55-.08-.15-.3-.24-.63-.41z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 T Scents. All rights reserved. Crafted with intention.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
