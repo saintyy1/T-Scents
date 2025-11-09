@@ -237,6 +237,7 @@ a:hover {
 }
 
 .hero-background {
+  background-image: url('/images/hero.jpg');
   position: absolute;
   top: 0;
   left: 0;
