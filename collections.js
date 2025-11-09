@@ -47,7 +47,7 @@ const perfumeData = [
     name: "Vintage Radio",
     brand: "Lattafa",
     price: 46000,
-    image: "/images/vintage radio.jpg",
+    image: "/images/Vintage radio.jpg",
     badge: "Bestseller",
   },
   {
@@ -95,7 +95,7 @@ const perfumeData = [
     name: "Caramel Cascade",
     brand: "Taskeen",
     price: 8500,
-    image: "/images/caramel cascade.jpg",
+    image: "/images/Caramel Cascade.jpg",
     badge: "Luxury",
   },
   {
@@ -103,7 +103,7 @@ const perfumeData = [
     name: "Angham",
     brand: "Lattafa",
     price: 46000,
-    image: "/images/angham.jpg",
+    image: "/images/Angham.jpg",
     badge: "Best Seller",
   },
   {
@@ -111,7 +111,7 @@ const perfumeData = [
     name: "Dubai Chocolate",
     brand: "Lamsat Harir",
     price: 14000,
-    image: "/images/dubai chocolate.jpg",
+    image: "/images/Dubai Chocolate.jpg",
     badge: "Luxury",
   },
   {
@@ -119,7 +119,7 @@ const perfumeData = [
     name: "Hayaati Belle",
     brand: "Lattafa",
     price: 20000,
-    image: "/images/hayaati.jpg",
+    image: "/images/Hayaati.jpg",
     badge: "Luxury",
   },
   {
@@ -127,7 +127,7 @@ const perfumeData = [
     name: "Hayaati Beau",
     brand: "Lattada",
     price: 20000,
-    image: "/images/hayaati beau.jpg",
+    image: "/images/Hayaati beau.jpg",
     badge: "New",
   },
   {
@@ -151,7 +151,7 @@ const perfumeData = [
     name: "Victoria",
     brand: "Lattafa",
     price: 45000,
-    image: "/images/victoria.jpg",
+    image: "/images/Victoria.jpg",
     badge: "Best Seller",
   },
   {
@@ -159,7 +159,7 @@ const perfumeData = [
     name: "Veltia",
     brand: "Imperio",
     price: 16000,
-    image: "/images/veltia.jpg",
+    image: "/images/Veltia.jpg",
     badge: "Luxury",
   },
 ]
