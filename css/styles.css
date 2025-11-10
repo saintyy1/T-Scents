@@ -356,6 +356,65 @@ main {
   margin-bottom: var(--spacing-sm);
 }
 
+/* ===== About Section ===== */
+.about-section {
+  padding: var(--spacing-2xl) var(--spacing-lg);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(237, 225, 214, 0.4) 100%);
+  border-bottom: 1px solid rgba(201, 168, 101, 0.2);
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.about-content h2 {
+  color: var(--brown-900);
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  margin-bottom: 0;
+}
+
+.about-content > p {
+  color: var(--brown-700);
+  font-size: 1rem;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
+  margin-bottom: 0;
+}
+
+.about-closing {
+  font-style: italic;
+  color: var(--brown-900);
+  font-size: 1.05rem;
+  margin-bottom: 0 !important;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 10px 40px rgba(59, 47, 47, 0.15);
+}
+
 /* ===== Featured Scent - Updated Carousel ===== */
 .featured-scent {
   padding: var(--spacing-2xl) var(--spacing-lg);
@@ -1244,6 +1303,19 @@ main {
 }
 
 @media (max-width: 1024px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+  }
+
+  .about-content h2 {
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 450px;
+  }
+
   .collections-main {
     grid-template-columns: 1fr;
     gap: var(--spacing-2xl);
@@ -1360,6 +1432,30 @@ main {
 
   .hero-newsletter {
     flex-direction: column;
+  }
+
+  .about-section {
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
+
+  .about-container {
+    gap: var(--spacing-xl);
+  }
+
+  .about-content h2 {
+    font-size: 1.75rem;
+  }
+
+  .about-content > p {
+    font-size: 0.95rem;
+  }
+
+  .about-closing {
+    font-size: 1rem;
+  }
+
+  .about-image img {
+    max-height: 400px;
   }
 
   .featured-grid {
@@ -1489,6 +1585,18 @@ main {
 
   .hero-title, .hero-description {
     text-align: center;
+  }
+
+  .about-section {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-image img {
+    width: 100%;
   }
 
   .featured-content h3 {
